@@ -1,0 +1,6 @@
+language: scala
+scala:
+   - 2.12.6
+script:
+  - mkfifo /tmp/some-fifo
+  - sbt run
